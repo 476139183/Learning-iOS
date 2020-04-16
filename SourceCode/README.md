@@ -1,3 +1,4 @@
+# 配置 和 使用 objc4-750 源码 
 
 ### 准备工作
 
@@ -5,8 +6,9 @@
 
 1. 找到并下载最新的源码 [objc4-750.tar.gz](https://opensource.apple.com/tarballs/objc4/)
 
-2. 其他需要引入的库 [已经下载好的]()
+2. 其他需要引入的库 [已经配置好的](https://github.com/476139183/Learning-iOS/tree/master/SourceCode/OpenSource)
 
+  ![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdvlc96odyj310m0k4grc.jpg)
   * 我这里已经下载好，并且配置完毕，文件名 为 **include**
 
 ### 编译 
@@ -94,3 +96,8 @@ int main(int argc, const char * argv[]) {
 ```  
 成功的断点，进入了 **alloc** 方法
 ![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdvl29fv9ej31580oon2m.jpg)
+
+
+## 结尾##
+
+如果需要知道 依赖库怎么配置的，可以参考这篇文章 [配置运行objc4-750和使用](https://www.jianshu.com/p/bbafd02ad0bb)
