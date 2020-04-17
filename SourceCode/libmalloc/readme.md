@@ -4,7 +4,7 @@
 
 1. 找到并下载: [libmalloc-166.200.60.tar.gz](https://opensource.apple.com/tarballs/libmalloc/)
 
-2. 其他需要引入的库 [已经配置好的]()
+2. 其他需要引入的库 [已经配置好的](https://github.com/476139183/Learning-iOS/tree/master/SourceCode/libmalloc/OpenSource)
 
 ![](https://upload-images.jianshu.io/upload_images/9540884-e39e394c85bde735.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200)
 
@@ -144,3 +144,7 @@ int main(int argc, const char * argv[]) {
 ```
 
 再次编译，我们可以成功进入 malloc 源码了。
+
+## 结尾 ##
+
+如果需要知道 依赖库怎么配置的，可以参考这篇文章 [libmalloc-166.200.60之源码编译](https://www.jianshu.com/p/cb1b573a0297)
