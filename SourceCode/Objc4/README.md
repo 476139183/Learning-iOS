@@ -4,7 +4,7 @@
 
 去 [Apple Open Source](https://opensource.apple.com/tarballs/) 下载相关源码
 
-1. 找到并下载最新的源码 [objc4-750.tar.gz](https://opensource.apple.com/tarballs/objc4/)
+1. 找到并下载对应的源码 [objc4-750.tar.gz](https://opensource.apple.com/tarballs/objc4/)
 
 2. 其他需要引入的库 [已经配置好的](https://github.com/476139183/Learning-iOS/tree/master/SourceCode/OpenSource)
 
@@ -25,7 +25,7 @@
          
 **`The i386 architecture is deprecated. You should update your ARCHS build setting to remove the i386 architecture.`**
 
-* 解决：删除i386     
+* 解决：删除i386           
 ![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdvkajx8rvj31c20kiq9n.jpg)
 
 * 问题2  
@@ -73,10 +73,10 @@
 --
 
 ### 使用
-点击创建一个 TAG，我命名为 YTTest
+点击创建一个 TAG，我命名为 YTTest      
 ![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gds58zw9faj318m0u0ara.jpg) 
 
-然后添加依赖
+然后添加依赖      
 ![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdvkyrij4qj31bw0j677h.jpg)
 
 我们在自己建的TAG工程 main.m 文件里 
@@ -94,10 +94,10 @@ int main(int argc, const char * argv[]) {
 }
 
 ```  
-成功的断点，进入了 **alloc** 方法
+成功的断点，进入了 **alloc** 方法       
 ![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdvl29fv9ej31580oon2m.jpg)
 
 
-## 结尾##
+## 结尾
 
 如果需要知道 依赖库怎么配置的，可以参考这篇文章 [配置运行objc4-750和使用](https://www.jianshu.com/p/bbafd02ad0bb)
