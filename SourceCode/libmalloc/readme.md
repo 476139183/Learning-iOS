@@ -1,6 +1,7 @@
 ## 配置 和 使用 libmalloc-166.200.60  ##
 
 ### 准备工作 
+> 当前环境：Xcode Version 11.3.1 
 
 1. 找到并下载: [libmalloc-166.200.60.tar.gz](https://opensource.apple.com/tarballs/libmalloc/)
 

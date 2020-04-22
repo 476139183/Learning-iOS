@@ -1,6 +1,8 @@
 # 配置 和 使用 objc4-750 源码 
 
 ### 准备工作
+> 当前环境：Xcode Version 11.3.1 
+
 
 去 [Apple Open Source](https://opensource.apple.com/tarballs/) 下载相关源码
 
@@ -67,6 +69,15 @@
  * 解决：找到 **macosx.internal** 并修改为 **macosx** 
        ![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdvkqd8rbrj31am0l6jw7.jpg)
 
+
+* 注意：
+报错 **`no such public header file: '/tmp/objc.dst/usr/include/objc/ObjectiveC.apinotes'`**
+ * 解决：搜索 **`Text-Based`** 操作如下：`Target->Build Settings->Other Text-Based InstallAPI Flags`里的内容设为空；
+把 `Text-Based InstallAPI Verification Model`里的值改为 `Errors Only`。
+
+> 这个报错，不一定会出现，所以我们应该提前解决。
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ge2c9cr6ywj31c80gmtd6.jpg)
  
 收尾：最后我们进行编译发现没有报错了。说明所有的工作都已经完成
 
