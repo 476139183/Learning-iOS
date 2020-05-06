@@ -10,6 +10,11 @@
 #import "Person.h"
 #import <objc/runtime.h>
 
+
+/*
+https://developer.apple.com/library/archive/navigation/
+*/
+
 @interface ViewController ()
 @property (nonatomic, strong) Person *person;
 @end
@@ -38,6 +43,8 @@
   _person.age = 10;
 
   [_person addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:NULL];
+  [_person addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:NULL];
+
   
   IMP setAge = [_person methodForSelector:@selector(setAge:)];
   
