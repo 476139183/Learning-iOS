@@ -15,6 +15,7 @@
 		09CA7EBF24610C4700FDF545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CA7EBE24610C4700FDF545 /* main.m */; };
 		09CA7EC724610C5200FDF545 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CA7EC624610C5200FDF545 /* Person.m */; };
 		09CA7ECA24610C6300FDF545 /* NSObject+YTKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CA7EC924610C6300FDF545 /* NSObject+YTKVO.m */; };
+		37313B1224921E5F00025EC1 /* NestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37313B1124921E5F00025EC1 /* NestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		09CA7EC624610C5200FDF545 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		09CA7EC824610C6300FDF545 /* NSObject+YTKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YTKVO.h"; sourceTree = "<group>"; };
 		09CA7EC924610C6300FDF545 /* NSObject+YTKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YTKVO.m"; sourceTree = "<group>"; };
+		37313B1024921E5F00025EC1 /* NestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestViewController.h; sourceTree = "<group>"; };
+		37313B1124921E5F00025EC1 /* NestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				09CA7EB024610C4500FDF545 /* AppDelegate.m */,
 				09CA7EB224610C4500FDF545 /* ViewController.h */,
 				09CA7EB324610C4500FDF545 /* ViewController.m */,
+				37313B1024921E5F00025EC1 /* NestViewController.h */,
+				37313B1124921E5F00025EC1 /* NestViewController.m */,
 				09CA7EC524610C5200FDF545 /* Person.h */,
 				09CA7EC624610C5200FDF545 /* Person.m */,
 				09CA7EC824610C6300FDF545 /* NSObject+YTKVO.h */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37313B1224921E5F00025EC1 /* NestViewController.m in Sources */,
 				09CA7EB424610C4500FDF545 /* ViewController.m in Sources */,
 				09CA7EBF24610C4700FDF545 /* main.m in Sources */,
 				09CA7ECA24610C6300FDF545 /* NSObject+YTKVO.m in Sources */,

@@ -10,4 +10,10 @@
 
 @implementation Person
 
+- (void)setName:(NSString *)name {
+  if (_name != name ) {
+    _name = name;
+  }
+}
+
 @end

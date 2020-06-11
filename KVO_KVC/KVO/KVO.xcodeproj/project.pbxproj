@@ -14,6 +14,7 @@
 		099927EF245D5B0D00DFE54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099927ED245D5B0D00DFE54A /* LaunchScreen.storyboard */; };
 		099927F2245D5B0D00DFE54A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 099927F1245D5B0D00DFE54A /* main.m */; };
 		099927FA245D5B4000DFE54A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 099927F9245D5B4000DFE54A /* Person.m */; };
+		37313B1524922D7A00025EC1 /* NestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37313B1424922D7A00025EC1 /* NestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		099927F1245D5B0D00DFE54A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		099927F8245D5B4000DFE54A /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		099927F9245D5B4000DFE54A /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		37313B1324922D7A00025EC1 /* NestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestViewController.h; sourceTree = "<group>"; };
+		37313B1424922D7A00025EC1 /* NestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				099927E3245D5B0B00DFE54A /* AppDelegate.m */,
 				099927E5245D5B0B00DFE54A /* ViewController.h */,
 				099927E6245D5B0B00DFE54A /* ViewController.m */,
+				37313B1324922D7A00025EC1 /* NestViewController.h */,
+				37313B1424922D7A00025EC1 /* NestViewController.m */,
 				099927F8245D5B4000DFE54A /* Person.h */,
 				099927F9245D5B4000DFE54A /* Person.m */,
 				099927E8245D5B0B00DFE54A /* Main.storyboard */,
@@ -149,6 +154,7 @@
 				099927E7245D5B0B00DFE54A /* ViewController.m in Sources */,
 				099927F2245D5B0D00DFE54A /* main.m in Sources */,
 				099927FA245D5B4000DFE54A /* Person.m in Sources */,
+				37313B1524922D7A00025EC1 /* NestViewController.m in Sources */,
 				099927E4245D5B0B00DFE54A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

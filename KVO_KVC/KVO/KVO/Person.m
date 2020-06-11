@@ -28,6 +28,11 @@
   return [super class];
 }
 
+//! 是否自动响应KVO, automaticallyNotifiesObserversOfXXX
++ (BOOL)automaticallyNotifiesObserversOfAge {
+  return YES;
+}
+
 - (void)willChangeValueForKey:(NSString *)key {
   [super willChangeValueForKey:key];
 }
