@@ -73,7 +73,7 @@ https://developer.apple.com/library/archive/navigation/
   //  NSMutableArray *tempArray = [_person mutableArrayValueForKey:@"colors"];
   //  [tempArray insertObject:@"2" atIndex:0];
     
-    
+    //! 获取注册的观察者信息，查看注释了解更多
   //  NSLog(@"%@",_person.observationInfo);
     
     [self printMethodNameOfClass:object_getClass(_person)];
