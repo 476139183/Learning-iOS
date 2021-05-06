@@ -176,6 +176,7 @@
                            @"age":@(2+arc4random_uniform(5))
                            };
     
+    
     [student setValuesForKeysWithDictionary:dict];
     [students1 addObject:student];
   }
